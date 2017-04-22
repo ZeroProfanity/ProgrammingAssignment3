@@ -89,5 +89,5 @@ names(small.dataset)[2] <- "Activity"
 # SAVING THE RESULTING DATA SETS 
 if (dir.exists(dir.output) == FALSE)
   dir.create(dir.output)
-write.table(dataset.full, file.output.big.dataset, col.names = TRUE)
-write.table(small.dataset, file.output.small.dataset, col.names = TRUE)
+write.table(dataset.full, file.output.big.dataset, col.names = TRUE, row.name=FALSE)
+write.table(small.dataset, file.output.small.dataset, col.names = TRUE, row.name=FALSE)
