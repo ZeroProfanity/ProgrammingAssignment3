@@ -1,12 +1,18 @@
 # Getting and Cleaning Data - Final assignment - README.MD  
+Coursera Data Science, course 3, Getting and cleaning data
+README.MD file
+
+Author: ZeroProfanity
+Date: April 22nd, 2017
 
 ## Contents:  
-
 * / run_analysis.R -- Main R script  
 * / make_a_better_name.R -- R script that converts the column names into more readable column names  
 * / README.MD -- This file  
 * / CODEBOOK.MD -- File containing information on created tidy data sets and the way these sets were created from the original set  
-* / UCI HAR Dataset -- Empty folder, in which the data set should be placed  
+* / UCI HAR Dataset / README.txt -- File provided with the original data set, containing general information on the experiment and data  
+* / UCI HAR Dataset / features_info.txt -- File provided with the original data set, containing information on the original data set  
+* / UCI HAR Dataset -- Folder, in which the data set should be placed  
 * / output -- Folder that contains two output data sets  
 * / output / small_dataset.txt -- Contains averaged values for all observations, aggregated by participant and activity  
 * / output / big_dataset.txt -- Contains tidied up data, based on the original data set  
